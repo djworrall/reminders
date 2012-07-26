@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650F3C6C15C1C75B00CA238C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650F3C6B15C1C75B00CA238C /* Cocoa.framework */; };
+		650F3C7615C1C75B00CA238C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 650F3C7415C1C75B00CA238C /* InfoPlist.strings */; };
+		650F3C7815C1C75B00CA238C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F3C7715C1C75B00CA238C /* main.m */; };
+		650F3C7C15C1C75B00CA238C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 650F3C7A15C1C75B00CA238C /* Credits.rtf */; };
+		650F3C7F15C1C75B00CA238C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F3C7E15C1C75B00CA238C /* AppDelegate.m */; };
+		650F3C8215C1C75B00CA238C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650F3C8015C1C75B00CA238C /* MainMenu.xib */; };
+		650F3C8A15C1C75C00CA238C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650F3C8915C1C75C00CA238C /* SenTestingKit.framework */; };
+		650F3C8B15C1C75C00CA238C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650F3C6B15C1C75B00CA238C /* Cocoa.framework */; };
+		650F3C9315C1C75C00CA238C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 650F3C9115C1C75C00CA238C /* InfoPlist.strings */; };
+		650F3C9615C1C75C00CA238C /* RemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650F3C9515C1C75C00CA238C /* RemindersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650F3C8C15C1C75C00CA238C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650F3C5E15C1C75B00CA238C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650F3C6615C1C75B00CA238C;
+			remoteInfo = Reminders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650F3C6715C1C75B00CA238C /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F3C6B15C1C75B00CA238C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		650F3C6E15C1C75B00CA238C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		650F3C6F15C1C75B00CA238C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		650F3C7015C1C75B00CA238C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		650F3C7315C1C75B00CA238C /* Reminders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reminders-Info.plist"; sourceTree = "<group>"; };
+		650F3C7515C1C75B00CA238C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		650F3C7715C1C75B00CA238C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		650F3C7915C1C75B00CA238C /* Reminders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reminders-Prefix.pch"; sourceTree = "<group>"; };
+		650F3C7B15C1C75B00CA238C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		650F3C7D15C1C75B00CA238C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		650F3C7E15C1C75B00CA238C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		650F3C8115C1C75B00CA238C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		650F3C8815C1C75C00CA238C /* RemindersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F3C8915C1C75C00CA238C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		650F3C9015C1C75C00CA238C /* RemindersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemindersTests-Info.plist"; sourceTree = "<group>"; };
+		650F3C9215C1C75C00CA238C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		650F3C9415C1C75C00CA238C /* RemindersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemindersTests.h; sourceTree = "<group>"; };
+		650F3C9515C1C75C00CA238C /* RemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650F3C6415C1C75B00CA238C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F3C6C15C1C75B00CA238C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F3C8415C1C75C00CA238C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F3C8A15C1C75C00CA238C /* SenTestingKit.framework in Frameworks */,
+				650F3C8B15C1C75C00CA238C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650F3C5C15C1C75B00CA238C = {
+			isa = PBXGroup;
+			children = (
+				650F3C7115C1C75B00CA238C /* Reminders */,
+				650F3C8E15C1C75C00CA238C /* RemindersTests */,
+				650F3C6A15C1C75B00CA238C /* Frameworks */,
+				650F3C6815C1C75B00CA238C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650F3C6815C1C75B00CA238C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650F3C6715C1C75B00CA238C /* Reminders.app */,
+				650F3C8815C1C75C00CA238C /* RemindersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650F3C6A15C1C75B00CA238C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650F3C6B15C1C75B00CA238C /* Cocoa.framework */,
+				650F3C8915C1C75C00CA238C /* SenTestingKit.framework */,
+				650F3C6D15C1C75B00CA238C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		650F3C6D15C1C75B00CA238C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650F3C6E15C1C75B00CA238C /* AppKit.framework */,
+				650F3C6F15C1C75B00CA238C /* CoreData.framework */,
+				650F3C7015C1C75B00CA238C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		650F3C7115C1C75B00CA238C /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				650F3C7D15C1C75B00CA238C /* AppDelegate.h */,
+				650F3C7E15C1C75B00CA238C /* AppDelegate.m */,
+				650F3C8015C1C75B00CA238C /* MainMenu.xib */,
+				650F3C7215C1C75B00CA238C /* Supporting Files */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		650F3C7215C1C75B00CA238C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				650F3C7315C1C75B00CA238C /* Reminders-Info.plist */,
+				650F3C7415C1C75B00CA238C /* InfoPlist.strings */,
+				650F3C7715C1C75B00CA238C /* main.m */,
+				650F3C7915C1C75B00CA238C /* Reminders-Prefix.pch */,
+				650F3C7A15C1C75B00CA238C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		650F3C8E15C1C75C00CA238C /* RemindersTests */ = {
+			isa = PBXGroup;
+			children = (
+				650F3C9415C1C75C00CA238C /* RemindersTests.h */,
+				650F3C9515C1C75C00CA238C /* RemindersTests.m */,
+				650F3C8F15C1C75C00CA238C /* Supporting Files */,
+			);
+			path = RemindersTests;
+			sourceTree = "<group>";
+		};
+		650F3C8F15C1C75C00CA238C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				650F3C9015C1C75C00CA238C /* RemindersTests-Info.plist */,
+				650F3C9115C1C75C00CA238C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650F3C6615C1C75B00CA238C /* Reminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F3C9915C1C75C00CA238C /* Build configuration list for PBXNativeTarget "Reminders" */;
+			buildPhases = (
+				650F3C6315C1C75B00CA238C /* Sources */,
+				650F3C6415C1C75B00CA238C /* Frameworks */,
+				650F3C6515C1C75B00CA238C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reminders;
+			productName = Reminders;
+			productReference = 650F3C6715C1C75B00CA238C /* Reminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650F3C8715C1C75C00CA238C /* RemindersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F3C9C15C1C75C00CA238C /* Build configuration list for PBXNativeTarget "RemindersTests" */;
+			buildPhases = (
+				650F3C8315C1C75C00CA238C /* Sources */,
+				650F3C8415C1C75C00CA238C /* Frameworks */,
+				650F3C8515C1C75C00CA238C /* Resources */,
+				650F3C8615C1C75C00CA238C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650F3C8D15C1C75C00CA238C /* PBXTargetDependency */,
+			);
+			name = RemindersTests;
+			productName = RemindersTests;
+			productReference = 650F3C8815C1C75C00CA238C /* RemindersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650F3C5E15C1C75B00CA238C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Squish;
+			};
+			buildConfigurationList = 650F3C6115C1C75B00CA238C /* Build configuration list for PBXProject "Reminders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 650F3C5C15C1C75B00CA238C;
+			productRefGroup = 650F3C6815C1C75B00CA238C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650F3C6615C1C75B00CA238C /* Reminders */,
+				650F3C8715C1C75C00CA238C /* RemindersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650F3C6515C1C75B00CA238C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F3C7615C1C75B00CA238C /* InfoPlist.strings in Resources */,
+				650F3C7C15C1C75B00CA238C /* Credits.rtf in Resources */,
+				650F3C8215C1C75B00CA238C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F3C8515C1C75C00CA238C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F3C9315C1C75C00CA238C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		650F3C8615C1C75C00CA238C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650F3C6315C1C75B00CA238C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F3C7815C1C75B00CA238C /* main.m in Sources */,
+				650F3C7F15C1C75B00CA238C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650F3C8315C1C75C00CA238C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F3C9615C1C75C00CA238C /* RemindersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650F3C8D15C1C75C00CA238C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650F3C6615C1C75B00CA238C /* Reminders */;
+			targetProxy = 650F3C8C15C1C75C00CA238C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		650F3C7415C1C75B00CA238C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650F3C7515C1C75B00CA238C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		650F3C7A15C1C75B00CA238C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650F3C7B15C1C75B00CA238C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		650F3C8015C1C75B00CA238C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650F3C8115C1C75B00CA238C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		650F3C9115C1C75C00CA238C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650F3C9215C1C75C00CA238C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650F3C9715C1C75C00CA238C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		650F3C9815C1C75C00CA238C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		650F3C9A15C1C75C00CA238C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reminders/Reminders-Prefix.pch";
+				INFOPLIST_FILE = "Reminders/Reminders-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		650F3C9B15C1C75C00CA238C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reminders/Reminders-Prefix.pch";
+				INFOPLIST_FILE = "Reminders/Reminders-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		650F3C9D15C1C75C00CA238C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reminders.app/Contents/MacOS/Reminders";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reminders/Reminders-Prefix.pch";
+				INFOPLIST_FILE = "RemindersTests/RemindersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		650F3C9E15C1C75C00CA238C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reminders.app/Contents/MacOS/Reminders";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reminders/Reminders-Prefix.pch";
+				INFOPLIST_FILE = "RemindersTests/RemindersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650F3C6115C1C75B00CA238C /* Build configuration list for PBXProject "Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F3C9715C1C75C00CA238C /* Debug */,
+				650F3C9815C1C75C00CA238C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F3C9915C1C75C00CA238C /* Build configuration list for PBXNativeTarget "Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F3C9A15C1C75C00CA238C /* Debug */,
+				650F3C9B15C1C75C00CA238C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		650F3C9C15C1C75C00CA238C /* Build configuration list for PBXNativeTarget "RemindersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F3C9D15C1C75C00CA238C /* Debug */,
+				650F3C9E15C1C75C00CA238C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650F3C5E15C1C75B00CA238C /* Project object */;
+}
